@@ -1,0 +1,33 @@
+<div class="forms-content">
+    <div class="content-center">
+<h1>Registre un proyecto</h1>
+
+<form action="/subirProyectos" method="POST">
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Nombre de proyecto</label>
+    <input name='nombre'  class="form-control" id="exampleFormControlInput1">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">descripción</label>
+    <textarea name="description" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <button type="submit"  class="btn btn-primary">Subir</button>
+
+</form>
+
+
+<h1>Registre un proyecto destacado</h1>
+<form action="/subirProyectosDestacados">
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Nombre de proyecto</label>
+    <input name='nombre' type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Example descripción</label>
+    <textarea name='descripcion' class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+      <button type="submit"  class="btn btn-primary">Subir</button>
+</form>
+    </div>
+</div>
+
